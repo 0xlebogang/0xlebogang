@@ -9,9 +9,9 @@
 
 - 🤝 I’m looking for help with **completing the OSSU curriculum. It's quite helpful for school though.**
 
-- 👨‍💻 All of my projects are available at [Soon to be available](Soon to be available)
+- 👨‍💻 All of my projects are available on my [GitHub](https://github.com/PhantomLeii/)
 
-- 📝 I regularly write articles on [Once I have a blog I will let you know](Once I have a blog I will let you know)
+- 📝 I regularly write articles on **Once I have a blog I will let you know**
 
 - 💬 Ask me about **Neovim, Python, Django or even SQL**
 
