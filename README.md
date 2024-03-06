@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Lebo!</h1>
-<h3 align="center">A passionate Data Analyst & Software Developer from South Africa</h3>
+<h3 align="center">A passionate Data Practioner & Software Developer from South Africa</h3>
 
 - 🔭 I’m currently working on **my portfolio website**
 
