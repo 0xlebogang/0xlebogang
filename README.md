@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Lebo!</h1>
 <h3 align="center">A passionate Data Practitioner & Software Developer from South Africa</h3>
 
-- 🔭 I’m currently working on **my portfolio website**
+- 🔭 I’m currently working on **a full-stack internet banking Webapp clone**
 
 - 🌱 I’m currently learning **the MERN stack for my web development skills and data science & machine learning to better my data handling skills for the era we are in right now.**
 
