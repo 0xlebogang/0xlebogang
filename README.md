@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Lebo!</h1>
 <h3 align="center">A passionate Data Practitioner & Software Developer from South Africa</h3>
 
-- 🔭 I’m currently working on **a full-stack internet banking Webapp clone called (myBanker)[https://github.com/PhantomLeii/myBanker]**
+- 🔭 I’m currently working on **a full-stack internet banking Webapp clone called [my Banker] (https://github.com/PhantomLeii/my Banker)**
 
 - 🌱 I’m currently learning **the MERN stack for my web development skills and data science & machine learning to better my data handling skills for the era we are in right now.**
 
@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **phoshokolebogang@outlook.com**
 
-- 📄 Know about my experiences [https://linkedin.com/in/phoshoko-ml](https://linkedin.com/in/phoshoko-ml)
+- 📄 Know about my experiences [@Phoshoko ML](https://linkedin.com/in/phoshoko-ml)
 
 - ⚡ Fun fact **statistics is a scientists prayer**
 
