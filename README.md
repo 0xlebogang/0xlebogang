@@ -1,3 +1,6 @@
+<h1 align="center">Hi 👋, I'm Lebo!</h1>
+<h3 align="center">A passionate Software Developer based in South Africa</h3>
+
 # 💫 About Me:
 🔭 I’m currently working on Learn-Bud<br>🌱 I’m currently learning all about the deeper concepts of Web & Software Development.<br>💬 Let's talk about every AI, Web & Innovation through Hackathons!<br>⚡ Fun fact: "I do not understand what I cannot build"
 
