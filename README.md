@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Software Developer based in South Africa</h3>
 
 # 💫 About Me:
-🔭 I’m currently working on [ENVYPER](https://github.com/PhantomLeii/envyper)<br>🌱 I’m currently learning all about the deeper concepts of Web & Software Development.<br>💬 Let's talk about every AI, Web & Innovation through Hackathons!<br>⚡ Fun fact: "I do not understand what I cannot build"
+🔭 I’m currently working on [GKSS1](https://github.com/0xlebogang/gkss1)<br>🌱 I’m currently learning all about the deeper concepts of Web & Software Development.<br>💬 Let's talk about every AI, Web & Innovation through Hackathons!<br>⚡ Fun fact: "I do not understand what I cannot build"
 
 
 
@@ -21,12 +21,12 @@
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=PhantomLeii&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=PhantomLeii&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=PhantomLeii&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=0xlebogang&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=PhantomLeii&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=oxlebogang&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
