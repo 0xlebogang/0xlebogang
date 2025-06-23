@@ -10,8 +10,7 @@
 ⚡ Fun fact: "I do not understand what I cannot build"
 
 ## 🌐 Socials:
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="phoshoko-ml" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://za.linkedin.com/in/phoshoko-ml?trk=profile-badge">Lebogang Phoshoko</a></div>
-[![LinkedIn](https://img.shields.io/badge/LinkedIn%23E4405F.svg?logo=LinkedIn&logoColor=white)](https://linkedin.com/in/phoshokoml) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/onlyphantom.leii) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/onlyphantomleii) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@onlyphantomleii) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/onlyphantom.leii) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/onlyphantomleii) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@onlyphantomleii) 
 
 # 💻 Tech Stack:
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)<br />
