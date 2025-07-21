@@ -8,7 +8,7 @@
 
 # 💫 About Me:
 🔭 I’m currently working on:<br>
-  - [Smartik](https://github.com/0xlebogang/smartik-mirror)<br>
+  - [Smartik](https://github.com/0xlebogang/smartik)<br>
   - [Sekrets](https://github.com/0xlebogang/sekrets)<br>
 
 🌱 I’m currently learning all about the deeper concepts of Backend Web Development, DevOps & Cloud.<br>
