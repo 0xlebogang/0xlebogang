@@ -46,8 +46,8 @@ A passionate Software Developer based in South Africa
 
 <div align="center">
   
-![](https://github-readme-stats.vercel.app/api?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br />
-![](https://github-readme-streak-stats.herokuapp.com/?user=0xlebogang&theme=dark&hide_border=false)<br />
+![](https://github-readme-stats.vercel.app/api?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+![](https://github-readme-streak-stats.herokuapp.com/?user=0xlebogang&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br />
 <!-- ![](https://github-readme-stats.vercel.app/api?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br />
 ![](https://github-readme-streak-stats.herokuapp.com/?user=0xlebogang&theme=dark&hide_border=false)<br />
