@@ -4,11 +4,7 @@
 
 A passionate Software Developer based in South Africa
 
-</div>
-
-<div align="center">
-
-  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/onlyphantom.leii) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/onlyphantomleii) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@onlyphantomleii) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/onlyphantom.leii) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/onlyphantomleii) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@onlyphantomleii) 
 
 ---
 
