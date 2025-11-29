@@ -1,0 +1,26 @@
+{
+	"name": "0xlebogang",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"test": "turbo test",
+		"lint": "turbo lint",
+		"lint:fix": "turbo lint:fix",
+		"prepare": "husky"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.8",
+		"@repo/biome": "workspace:*",
+		"@turbo/gen": "^2.6.1",
+		"@types/bun": "latest",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.7",
+		"turbo": "^2.6.1"
+	},
+	"peerDependencies": {
+		"typescript": "catalog:"
+	},
+	"packageManager": "pnpm@10.19.0"
+}

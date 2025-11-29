@@ -1,0 +1,27 @@
+{
+	"name": "www",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/mdx": "^4.3.12",
+		"@repo/ui": "workspace:^",
+		"astro": "^5.16.2",
+		"clsx": "catalog:",
+		"lucide-react": "catalog:"
+	},
+	"devDependencies": {
+		"@astrojs/react": "^4.4.2",
+		"@repo/biome": "workspace:*",
+		"@repo/tsconfig": "workspace:*",
+		"@tailwindcss/vite": "^4.1.17",
+		"@types/react": "catalog:",
+		"@types/react-dom": "catalog:",
+		"react": "catalog:",
+		"react-dom": "catalog:"
+	}
+}
