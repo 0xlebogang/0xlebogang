@@ -1,0 +1,24 @@
+{
+	"name": "0xlebogang",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"test": "vitest run",
+		"start": "turbo start",
+		"lint": "turbo lint",
+		"lint:fix": "turbo lint:fix",
+		"prepare": "husky"
+	},
+	"author": "Lebogang Phoshoko",
+	"license": "CC0-4.0",
+	"packageManager": "pnpm@11.17.0",
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.5",
+		"@types/node": "catalog:",
+		"husky": "^9.1.7",
+		"lint-staged": "^17.2.0",
+		"turbo": "^2.10.7",
+		"typescript": "catalog:"
+	}
+}
