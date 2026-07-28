@@ -7,15 +7,14 @@
 		},
 		"build": {
 			"dependsOn": ["^build"],
-			"inputs": [".env", ".env.local"],
-			"outputs": [".next/**", "!.next/cache/**"]
-		},
-		"start": {
-			"cache": false,
-			"persistent": true
+			"inputs": [".env", ".env.local", "!.env.example"]
 		},
 		"test": {},
 		"lint": {},
-		"lint:fix": {}
+		"lint:fix": {},
+		"start": {
+			"cache": false,
+			"persistent": true
+		}
 	}
 }
