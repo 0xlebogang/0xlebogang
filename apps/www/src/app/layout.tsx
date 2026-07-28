@@ -1,4 +1,6 @@
 import type * as React from "react";
+import PageLayout from "@/components/page-layout";
+
 import "@/styles/main.css";
 
 export interface RootLayoutProps {
@@ -8,7 +10,9 @@ export interface RootLayoutProps {
 export default function RootLayout(props: RootLayoutProps) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<body>{props.children}</body>
+			<body>
+				<PageLayout>{props.children}</PageLayout>
+			</body>
 		</html>
 	);
 }
