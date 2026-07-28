@@ -12,6 +12,7 @@
 	"devDependencies": {
 		"@astryxdesign/cli": "^0.1.9",
 		"@repo/biome": "*",
+		"@repo/vitest": "*",
 		"@repo/tsconfig": "*",
 		"@types/node": "^26.1.2",
 		"@types/react": "^19.2.17",
