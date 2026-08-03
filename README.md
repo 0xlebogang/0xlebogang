@@ -1,62 +1,67 @@
-<div align='center'>
+# Payload Blank Template
 
-# Hi 👋, I'm Lebogang!
+This template comes configured with the bare minimum to get started on anything you need.
 
-A passionate Software Developer based in South Africa
+## Quick start
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/onlyphantom.leii) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/onlyphantomleii) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@onlyphantomleii) 
+This template can be deployed directly from our Cloud hosting and it will setup MongoDB and cloud S3 object storage for media.
 
----
+## Quick Start - local setup
 
-</div>
+To spin up this template locally, follow these steps:
 
-# 💫 About Me:
-🔭 I’m currently working on:
-  - [Sekrets](https://github.com/0xlebogang/sekrets)<br>
-  - Myself 😞
+### Clone
 
-🌱 I’m currently learning all about the deeper concepts of Backend Web Development, DevOps & Cloud.<br>
-💬 Let's talk about every AI, Web & Innovation through Hackathons!<br>
+After you click the `Deploy` button above, you'll want to have standalone copy of this repo on your machine. If you've already cloned this repo, skip to [Development](#development).
 
-<div align='center'>
+### Development
 
-> #### ⚡ Fun fact:
-> _**"If I cannot build it, then I do not understand it"**_
+1. First [clone the repo](#clone) if you have not done so already
+2. `cd my-project && cp .env.example .env` to copy the example environment variables. You'll need to add the `MONGODB_URL` from your Cloud project to your `.env` if you want to use S3 storage and the MongoDB database that was created for you.
 
-</div>
+3. `pnpm install && pnpm dev` to install dependencies and start the dev server
+4. open `http://localhost:3000` to open the app in your browser
 
----
+That's it! Changes made in `./src` will be reflected in your app. Follow the on-screen instructions to login and create your first admin user. Then check out [Production](#production) once you're ready to build and serve your app, and [Deployment](#deployment) when you're ready to go live.
 
-<div align='center'>
+#### Docker (Optional)
 
-# 💻 Tech Stack:
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)<br />
+If you prefer to use Docker for local development instead of a local MongoDB instance, the provided docker-compose.yml file can be used.
 
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white)  ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)<br />
+To do so, follow these steps:
 
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)<br />
+- Modify the `MONGODB_URL` in your `.env` file to `mongodb://127.0.0.1/<dbname>`
+- Modify the `docker-compose.yml` file's `MONGODB_URL` to match the above `<dbname>`
+- Run `docker-compose up` to start the database, optionally pass `-d` to run in the background.
 
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+## How it works
 
-# 📊 GitHub Stats:
+The Payload config is tailored specifically to the needs of most websites. It is pre-configured in the following ways:
 
-<div align="center">
-  
-![](https://github-readme-stats.vercel.app/api?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![](https://github-readme-streak-stats.herokuapp.com/?user=0xlebogang&theme=dark&hide_border=false)<br />
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br />
-<!-- ![](https://github-readme-stats.vercel.app/api?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br />
-![](https://github-readme-streak-stats.herokuapp.com/?user=0xlebogang&theme=dark&hide_border=false)<br />
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=0xlebogang&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br /> -->
+### Collections
 
-</div>
+See the [Collections](https://payloadcms.com/docs/configuration/collections) docs for details on how to extend this functionality.
 
----
+- #### Users (Authentication)
 
-<div align="center">
-  
-### ✍️ Random Dev Quote</h3>
-  
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+  Users are auth-enabled collections that have access to the admin panel.
 
-</div>
+  For additional help, see the official [Auth Example](https://github.com/payloadcms/payload/tree/3.x/examples/auth) or the [Authentication](https://payloadcms.com/docs/authentication/overview#authentication-overview) docs.
+
+- #### Media
+
+  This is the uploads enabled collection. It features pre-configured sizes, focal point and manual resizing to help you manage your pictures.
+
+### Docker
+
+Alternatively, you can use [Docker](https://www.docker.com) to spin up this template locally. To do so, follow these steps:
+
+1. Follow [steps 1 and 2 from above](#development), the docker-compose file will automatically use the `.env` file in your project root
+1. Next run `docker-compose up`
+1. Follow [steps 4 and 5 from above](#development) to login and create your first admin user
+
+That's it! The Docker instance will help you get up and running quickly while also standardizing the development environment across your teams.
+
+## Questions
+
+If you have any issues or questions, reach out to us on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).
