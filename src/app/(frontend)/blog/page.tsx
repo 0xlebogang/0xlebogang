@@ -12,7 +12,7 @@ export default async function Index() {
 
   return (
     <section>
-      <h1>Hello from Index</h1>
+      <h1>Hello from Blog</h1>
       <Button>Click Me!</Button>
     </section>
   )

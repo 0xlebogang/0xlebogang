@@ -1,5 +1,7 @@
-import React from 'react'
-import './styles.css'
+import * as React from 'react'
+import './styles.scss'
+import { Theme } from '@carbon/react'
+import AppShell from '@/components/app-shell'
 
 export const metadata = {
   description: 'A blank template using Payload in a Next.js app.',
@@ -12,7 +14,7 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <main>{children}</main>
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   )
