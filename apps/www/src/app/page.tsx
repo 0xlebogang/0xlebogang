@@ -1,10 +1,19 @@
-import { Button } from "@repo/ui/index";
+import About from "@/components/sections/about";
+import Contact from "@/components/sections/contact";
+import Experience from "@/components/sections/experience";
+import Hero from "@/components/sections/hero";
+import Projects from "@/components/sections/projects";
+import Technologies from "@/components/sections/techonologies";
 
 export default function Index() {
 	return (
-		<div>
-			<h1>Hello from Nextjs</h1>
-			<Button>Click Me!</Button>
-		</div>
+		<>
+			<Hero />
+			<About />
+			<Technologies />
+			<Projects />
+			<Experience />
+			<Contact />
+		</>
 	);
 }

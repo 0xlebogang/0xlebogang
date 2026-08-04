@@ -1,6 +1,7 @@
 import type * as React from "react";
 import "@repo/ui/scss/main.scss";
 import AppShell, { type AppShellProps } from "@/components/app-shell";
+import Footer from "@/components/sections/footer";
 
 export interface RootLayoutProps {
 	children: React.ReactNode;
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 			<body>
 				<AppShell platform={shellData.platform} navLinks={shellData.navLinks}>
 					{children}
+					<Footer />
 				</AppShell>
 			</body>
 		</html>
