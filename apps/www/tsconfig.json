@@ -1,0 +1,17 @@
+{
+	"extends": "@repo/tsconfig/next",
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./src/*"],
+			"@repo/ui/*": ["../../packages/ui/src/*"]
+		}
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"next.config.ts",
+		"next-env.d.ts",
+		".next/dev/types/**/*"
+	],
+	"exclude": ["node_modules"]
+}

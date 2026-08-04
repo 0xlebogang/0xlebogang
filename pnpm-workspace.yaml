@@ -1,3 +1,7 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
 allowBuilds:
   '@carbon/colors': true
   '@carbon/feature-flags': true
@@ -21,7 +25,14 @@ allowBuilds:
   '@ibm/plex-sans-thai-looped': true
   '@ibm/plex-serif': true
   '@parcel/watcher': true
-  esbuild: true
   sharp: true
-  unrs-resolver: true
-  workerd: true
+
+catalog:
+  '@types/node': ^26.1.2
+  '@types/react': ^19.2.18
+  '@types/react-dom': ^19.2.4
+  next: ^16.2.12
+  react: ^19.2.8
+  react-dom: ^19.2.8
+  sass: ^1.102.0
+  typescript: ^6.0.3

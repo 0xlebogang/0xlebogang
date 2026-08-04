@@ -1,0 +1,14 @@
+{
+	"$schema": "./node_modules/turbo/schema.json",
+	"tasks": {
+		"dev": {
+			"cache": false,
+			"persistent": true
+		},
+		"build": {
+			"dependsOn": ["^build"],
+			"inputs": [".env", "!.env.example"],
+			"outputs": [".next/**", "!.next/cache/**"]
+		}
+	}
+}

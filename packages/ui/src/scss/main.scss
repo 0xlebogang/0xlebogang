@@ -1,0 +1,8 @@
+@use '@carbon/react';
+
+main {
+	position: absolute;
+	top: 47px;
+	left: 0;
+	min-height: calc(100vh - 47px);
+}

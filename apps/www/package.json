@@ -1,0 +1,26 @@
+{
+	"name": "www",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --webpack",
+		"build": "next build --webpack",
+		"lint": "biome check",
+		"lint:fix": "biome check --fix --unsafe"
+	},
+	"dependencies": {
+		"@repo/ui": "workspace:*",
+		"next": "catalog:",
+		"react": "catalog:",
+		"react-dom": "catalog:"
+	},
+	"devDependencies": {
+		"@repo/biome": "workspace:*",
+		"@repo/tsconfig": "workspace:*",
+		"@types/node": "catalog:",
+		"@types/react": "catalog:",
+		"@types/react-dom": "catalog:",
+		"sass": "catalog:",
+		"typescript": "catalog:"
+	}
+}
